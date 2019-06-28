@@ -6,6 +6,6 @@ node_js:
 
  directories:
 
-   - node_modulesinstall:
+   -sudo node_modulesinstall:
 
  - npm installbefore_script: true
