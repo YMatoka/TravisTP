@@ -9,3 +9,12 @@ cache:
    
 install:
   - npm install
+
+deploy:
+  provider: heroku
+  apikey:
+    secure: a+Ve2yKNQWrKumRo/UXTnF+UnypIc2ywAT971HsRhh3Cp07UeEOVcQqaEIRiTJ1RQPHEOLFK90n81m+l1zHD3/e7J5ckO25tt2CDFEFVEMTihStLbunxarYl3ybCxKk0z0+DUwDX1cXdibg8aInLzVG04oLjY1jXGM1/sPqfrpzPQRrWkMIf4dChXEq7dmdvKOs3OVivUOO8h15YejSVVwTdGQ0gApCctg4VkJciEKaPIh61NmGEFrOSXPWeMtFrV7v32zyCCB5VLNt8V1P+5zxzmHxzo6JTdml1kB4IcV8B5tZVIdw5kkDn6fUcYc5S2yRQ5+F0PA5xyryUyYWjicfgdUh3sCWO2w8Ju4ztaSUk4vkXYMvimJqFeVRKab5iFLhoh2Fdnox92dm0T6pgRUtnfuhMhsBV3SgzkmVbzBtl3geNPTzMFqO80tK7ekHe52FijdJkje8UAXW3M9FWZzptV2vz4FWmRqfXuGGWw+iEA/FK/wzr+nS9ZANCVIuJTMVyLVOd9eAhb+boPf7jkwOPdJ5eb3d/KQ3XYYoizpTFRsd5Rrw1loBLEHbywnlIstWhCMS2brt1I1xOaJR1Euiu3elsxx1/LpB3DF+56C/pezfxfJVn8vX/8tJN1Ly/B8yZUodOTmRPvQxxxvPEoupsMVlFOYFlxG9+nMpAMX8=
+  app: travistp
+  on:
+    repo: YMatoka/TravisTP
+    branch: dev
