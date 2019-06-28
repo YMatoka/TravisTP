@@ -1,8 +1,11 @@
-language: php
-php:
-  - '7.0'
-  - '7.1'
+language: node_js
 
-script:
-   - composer install
-   - vendor/bin/phpunit
+node_js:
+
+ - "12"cache:
+
+ directories:
+
+   - node_modulesinstall:
+
+ - npm installbefore_script: true
